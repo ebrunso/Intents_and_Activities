@@ -20,5 +20,3 @@ Create an application to have the following features
 ![EMI_Calc](https://raw.githubusercontent.com/ebrunso/Intents_and_Activities/master/EMI_result.png)
 
 ![Personal_Info](https://raw.githubusercontent.com/ebrunso/Intents_and_Activities/master/PersonalInfo.png)
-    
-![cbrt](https://raw.githubusercontent.com/ebrunso/Calculator/master/cbrt.png)
