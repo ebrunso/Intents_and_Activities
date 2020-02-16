@@ -33,6 +33,7 @@ class PersonActivity : AppCompatActivity() {
 
                 passedIntent.putExtra("PERSON", person)
                 setResult(999, passedIntent)
+                finish()
             }
         }
     }

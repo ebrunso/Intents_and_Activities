@@ -1,6 +1,6 @@
 package com.example.intentsandactivities
 
-import android.app.Person
+//import android.app.Person
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
