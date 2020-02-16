@@ -44,4 +44,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnNewPerson" />
 
+    <Button
+        android:id="@+id/btnViewCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="View Calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnViewPersonell" />
+
+    <Button
+        android:id="@+id/btnRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Make a Rating"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnViewPersonell" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

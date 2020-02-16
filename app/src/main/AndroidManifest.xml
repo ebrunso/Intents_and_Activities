@@ -16,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PersonResultActivity"></activity>
+        <activity android:name=".Rating"></activity>
+        <activity android:name=".Calendar" />
+        <activity android:name=".PersonResultActivity" />
         <activity android:name=".PersonActivity" />
         <activity android:name=".EMIActivity" />
         <activity android:name=".PhotoActivity" />

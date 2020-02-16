@@ -39,6 +39,14 @@ class MainActivity : AppCompatActivity() {
                 intent.putParcelableArrayListExtra("personellRecord",personList)
                 startActivity(intent)
             }
+            R.id.btnViewCalendar -> {
+                intent = Intent(this, Calendar::class.java)
+                startActivity(intent)
+            }
+            R.id.btnRating -> {
+                intent = Intent(this, Rating::class.java)
+                startActivity(intent)
+            }
         }
     }
 
