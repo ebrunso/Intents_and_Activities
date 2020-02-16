@@ -8,11 +8,12 @@ import android.view.View
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
 
+const val TAG_MAIN_ACTIVITY = "TAG_MAIN"
+const val TAG_DISPLAY_ACTIVITY = "TAG_DISPLAY"
+
 class MainActivity : AppCompatActivity() {
 
-    val TAG_MAIN_ACTIVITY = "TAG_MAIN"
-    val TAG_DISPLAY_ACTIVITY = "TAG_DISPLAY"
-    val personList : ArrayList<Person> = ArrayList()
+    var personList : ArrayList<Person> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
